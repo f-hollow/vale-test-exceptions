@@ -1,1 +1,3 @@
-# vale-test-exceptions
+# Vale
+
+Concise, Precise, and realize.

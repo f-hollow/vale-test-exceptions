@@ -1,0 +1,8 @@
+# Google.Headings -- customized
+extends: capitalization
+message: "Use heading-style capitalization."
+level: warning
+scope: heading
+match: $title
+exceptions:
+  - ale

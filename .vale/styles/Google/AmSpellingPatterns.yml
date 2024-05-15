@@ -1,0 +1,11 @@
+# Google.Spelling -- customized
+extends: existence
+message: "In '%s', use American spelling with 'z' instead of 's'."
+ignorecase: true
+level: warning
+tokens:
+  - '(?:\w+)[clmns]is(e|ed|es|ing)'
+  - '(?:\w+)lys(e|ed|es|ing)'
+exceptions:
+  - concise
+  - precise
